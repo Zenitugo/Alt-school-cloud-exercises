@@ -15,7 +15,7 @@ I did that by running the command `sudo apt list --installed software-properties
 
 Since the repository is not a regular one but ppa, I used this syntax
 `add-apt-repository ppa:<user>/<ppa_name>` which means I ran the command
-`add-apt-repository ppa:ondrej/php` followed by `sudo apt install php4 -y`
+`add-apt-repository ppa:ondrej/php` followed by `sudo apt install php7.4 -y`
 
 This is the image of the installation
 ![php-installation](./add-apt-repository.png)
